@@ -5,7 +5,9 @@ description = "Первый проект в рамках курса \"Python-р�
 authors = ["0x8251ae8c <99046156+0x8251ae8c@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "hexlet_code"}]
+packages = [
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
