@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Первый проект в рамках курса \"Python-разработчик\": Игры разума."
+authors = ["0x8251ae8c <99046156+0x8251ae8c@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hexlet_code"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
